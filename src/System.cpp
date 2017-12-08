@@ -19,7 +19,7 @@ namespace game {
         renderer = SDL_CreateRenderer(window, -1, 0);
 
         //Init på TTF om vi använder en font
-        //TTF_Init();
+        TTF_Init();
 
         //Ta bort denna! Endast här för att testa att fönstret syns
         SDL_Delay(5000);
@@ -32,7 +32,7 @@ namespace game {
         //TTF_CloseFont(font);
 
         //Avsluta TTF
-        //TTF_Quit();
+        TTF_Quit();
 
         SDL_DestroyWindow(window);
         SDL_DestroyRenderer(renderer);

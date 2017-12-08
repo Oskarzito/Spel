@@ -9,9 +9,7 @@
 
 namespace game {
 
-    class MovingSprite : public Sprite {
-
-        MovingSprite(int x, int y, int width, int height);
+    class MovingSprite{
 
 
 

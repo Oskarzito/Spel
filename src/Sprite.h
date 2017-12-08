@@ -12,7 +12,7 @@ namespace game {
     class Sprite {
 
     public:
-        virtual ~Sprite();
+        virtual ~Sprite(){}
 
         //Returnera rect. Vi låter den returnera en referens. Inte en kopia
         const SDL_Rect &getRect() const {
@@ -33,7 +33,7 @@ namespace game {
         //konstruktorn som protected. Detta tillåter subklasser men ej objekt
         Sprite(int x, int y, int w, int h);
 
-        virtual void updatePosition(int x, int y, int w, int h){}
+        virtual void updatePosition(int x, int y, int w, int h);//{}
 
     private:
 

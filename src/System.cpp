@@ -26,7 +26,6 @@ namespace game {
 
     }
 
-
     System::~System() {
 
         //Stäng fonten

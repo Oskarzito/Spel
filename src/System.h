@@ -5,7 +5,6 @@
 #ifndef SPEL_SYSTEM_H
 #define SPEL_SYSTEM_H
 
-
 #include <SDL.h>
 #include <SDL_ttf.h>
 
@@ -24,7 +23,6 @@ namespace game {
         //Eventuellt en font också
         //TTF_Font* getFont() const;
 
-
     private:
 
         SDL_Window *window;
@@ -32,7 +30,6 @@ namespace game {
 
         //Eventuellt font
         //TTF_Font* font;
-
 
     };
 
